@@ -114,6 +114,121 @@
             padding: 30px;
             margin-top: 50px;
         }
+		 /* Tablets and smaller laptops */
+        @media screen and (max-width: 1024px) {
+            header {
+                padding: 35px 20px;
+            }
+
+            nav {
+                gap: 15px;
+                padding: 25px 15px;
+                flex-wrap: wrap;
+            }
+
+            nav a {
+                padding: 15px 20px;
+            }
+
+            .contact-container {
+                width: 90%;
+                padding: 35px;
+            }
+
+            .contact-container h2 {
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+        }
+
+        /* Mobile phones */
+        @media screen and (max-width: 600px) {
+            header {
+                padding: 25px 10px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+                padding: 15px 10px;
+            }
+
+            nav a {
+                width: 100%;
+                max-width: 250px;
+                text-align: center;
+                padding: 12px 15px;
+            }
+
+            .contact-container {
+                width: 92%;
+                max-width: 100%;
+                margin: 20px auto;
+                padding: 20px;
+            }
+
+            .contact-container h2 {
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+
+            label {
+                margin-top: 15px;
+                margin-bottom: 8px;
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                padding: 12px;
+                font-size: 16px;
+            }
+
+            textarea {
+                height: 120px;
+            }
+
+            button {
+                max-width: 100%;
+                padding: 15px 20px;
+                font-size: 14px;
+                margin-top: 15px;
+            }
+
+            footer {
+                padding: 20px 10px;
+                margin-top: 30px;
+                overflow-wrap: break-word;
+            }
+        }
+
+        /* Very small mobile phones */
+        @media screen and (max-width: 360px) {
+            header h1 {
+                font-size: 21px;
+            }
+
+            .contact-container {
+                padding: 15px;
+            }
+
+            .contact-container h2 {
+                font-size: 26px;
+            }
+
+            nav a {
+                font-size: 14px;
+            }
+
+            button {
+                padding: 12px 15px;
+            }
+        }
     </style>
 </head>
 
